@@ -63,7 +63,7 @@ public:
 
         while (true) {
             step++;
-            if (step > 10000) {
+            if (step > 30000) {
                 break;
             }
 
