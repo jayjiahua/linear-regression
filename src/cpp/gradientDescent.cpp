@@ -82,7 +82,7 @@ public:
             }
 
             currentJTheta = jTheta();
-            printf("%d: %lf\n", step, currentJTheta);
+            printf("%d: %lf => %lf\n", step, currentJTheta, currentJTheta - lastJTheta);
 
             if (lastJTheta != 0 && lastJTheta <= currentJTheta) {
                 for (int i = 0 ; i < 385 ; i++) {
